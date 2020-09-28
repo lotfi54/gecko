@@ -1,0 +1,297 @@
+{
+
+  "Services": [
+    {
+      "id":"1",
+    "titleservice": "UX Design and prototyping",
+    "quote" : "The most basic definition of prototype is, “A simulation or sample version of a final product, which is used for testing prior to launch.” The goal of a prototype is to test products (and product ideas) before sinking lots of time and money into the final product. We start by imagining the end result. In between, we add an intuitive user experience to increase engagement and conversions.",
+    "roles": [
+      {
+        
+        "service": "Related services"
+        },
+      {
+        
+      "title": "Interface and user experience design"
+      },
+      {
+        "title": "Information architecture and Web ergonomics (UX)"
+      },
+
+      {
+        "title": "Feasibility demos and prototypes"
+      },
+      
+      {
+        "title": "Adaptive design (responsive design)"
+      }
+     
+
+
+      
+    ]
+    },
+    {
+      "id":"2",
+    "titleservice": "Design / Brand image",
+    "quote" : "At GECKO, with our ideas and creative thinking based on an in-depth analysis of your brand's needs and a strategic plan to make sure they reach your expectations and needs.",
+    "roles": [
+      {
+        
+        "service": "Related services"
+        },
+      {
+        
+      "title": "Interactive strategy"
+      },
+      {
+        "title": "Content strategy and social media"
+      },
+
+      {
+        "title": "Community management"
+      },
+      
+      {
+        "title": "Digital advertising"
+      }
+     
+
+
+      
+    ]
+    
+    },
+
+
+    {
+      "id":"3",
+    "titleservice": "Web developmente",
+    "quote" : "If you want a website to be successful, it’s got to be seen. We strive to build adaptive interfaces using adaptive designs, but if nobody sees them, it's a bit embarrassing. That's where our digital marketing specialists step in. They make sure your site is carefully planned to meet its business objectives.",
+    "roles": [
+      {
+        
+        "service": "Related services"
+        },
+      {
+        
+      "title": "Programming"
+      },
+      {
+        "title": "Responsive design"
+      },
+
+      {
+        "title": "Content management system"
+      },
+      
+      {
+        "title": "SEO + SEM"
+      }
+     
+
+
+      
+    ]
+    
+    },
+
+    {
+      "id":"4",
+    "titleservice": "Community management",
+    "quote" : "Social media is an ever-developing landscape. That’s why we plan how often you should be posting and how do you transform dissatisfaction into opportunity. We understand both the history and the future of social media can anticipate flashes in the social media plan and forecast new trends. We understand both the history and the future of social media can anticipate flashes in the social media plan and forecast new trends.",
+    "roles": [
+      {
+        
+        "service": "Related services"
+        },
+      {
+        
+      "title": "Programming"
+      },
+      {
+        "title": "Social media strategy"
+      },
+
+      {
+        "title": "Newsletters"
+      },
+      
+      {
+        "title": "Community audits"
+      },
+      
+      {
+        "title": "Decision matrix"
+      }
+     
+
+
+      
+    ]
+    
+    },
+
+    {
+      "id":"5",
+    "titleservice": "E-commerce",
+    "quote" : "Your online store has to be able to convert visitors into buyers. Our team integrates the best practices in SEO, analytics and content strategy to help you hit your sales targets.",
+    "roles": [
+      {
+        
+        "service": "Related services"
+        },
+      {
+        
+      "title": "Web development"
+      },
+      {
+        "title": "Interactive marketing, web advertising"
+      }
+
+    ]
+    
+    },
+
+    {
+      "id":"6",
+    "titleservice": "Growth marketing",
+    "quote" : "Once your web ecosystem is running, you need a good content strategy, activations, media buys and SEO for better search performance. Successful SEO ensures that a company’s content is visible and easy to find in search engines. It is a vital part for companies.",
+    "roles": [
+      {
+        
+        "service": "Related services"
+        },
+      {
+        
+      "title": "Visual identity program"
+      },
+      {
+        "title": "Logotype creation"
+      },
+
+      {
+        "title": "Graphic standards"
+      },
+      
+      {
+        "title": "Collateral graphic design"
+      }
+
+    ]
+    
+    },
+
+    {
+      "id":"7",
+    "titleservice": "Online business strategy",
+    "quote" : "Consumers are everywhere, ready to meet you. We advise businesses on how to use the web and digital space to achieve core, business goals. Our strategic consulting includes advisement, using digital marketing, websites, mobile, branding, design, user-experience (UX), analytics, reporting and workflow.",
+    "roles": [
+      {
+        
+        "service": "Related services"
+        },
+      {
+        
+      "title": "Video production"
+      },
+      {
+        "title": "Photography"
+      },
+
+      {
+        "title": "Animation"
+      },
+      
+      {
+        "title": "Design and copywriting"
+      },
+
+      {
+        "title": "Web writing"
+      },
+      {
+        "title": "Ad writing"
+      },
+      {
+        "title": "Translation and adaptation"
+      }
+
+    ]
+    
+    },
+
+    {
+      "id":"8",
+    "titleservice": "Content strategy",
+    "quote" : "Content creation is a crucial part of any digital marketing strategy because it gives users a reason to visit your site, and gives search engines something to crawl and index.",
+    "roles": [
+      {
+        
+        "service": "Related services"
+        },
+      {
+        
+      "title": "Content strategy"
+      },
+      {
+        "title": "Social media activation"
+      },
+
+      {
+        "title": "Copywriting"
+      },
+      
+      {
+        "title": "Design and copywriting"
+      },
+
+      {
+        "title": "Web writing"
+      },
+      {
+        "title": "Design, illustration, video production"
+      }
+
+    ]
+    
+    },
+
+    {
+      "id":"9",
+    "titleservice": "Media Performance",
+    "quote" : "We combine attribute-based audience definitions with intent-based definitions to create high propensity audiences and cross-channel experiences (search, social, display, commerce) aligned to intent. We drive more traffic to your site and boost your stats, we reach new geographies and market segments.",
+    "roles": [
+      {
+        
+        "service": "Related services"
+        },
+      {
+        
+      "title": "Media planning"
+      },
+      {
+        "title": "SEO / SEM"
+      },
+
+      {
+        "title": "Traffic analysis"
+      },
+      
+      {
+        "title": "Persona analysis"
+      }
+
+    ]
+    
+    }
+
+
+
+ 
+ 
+ 
+
+    
+  ]   
+  }

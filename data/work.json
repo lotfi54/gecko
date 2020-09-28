@@ -1,0 +1,76 @@
+[
+    {
+        "id":1,
+        "auteur":"Lotfi Bouraine",
+     "category": "web design",
+     "view": "View work",
+      "htags":"#Design#creatif#web#developpement",
+      "title": "Developpeur creatif agency",
+      "image": "https://cdn.dribbble.com/users/1615584/screenshots/14282211/media/715273fd7f22b5834da83dac3fd2a346.jpg",
+      "quote":
+        "It's all good. I was amazed at the quality of the Design. We've seen amazing results already."
+    },
+    {
+      "id":2,
+      "auteur":"Lotfi Bouraine",
+   "category": "Web design",
+   "view": "View work",
+    "htags":"#Design#creatif#web#developpement",
+    "title": "work2",
+    "image": "https://cdn.dribbble.com/users/3860505/screenshots/14282691/media/3d900ca9ea9c2ac5f255cc9a6cc3e260.png",
+    "quote":
+      "It's all good. I was amazed at the quality of the Design. We've seen amazing results already."
+  },
+
+
+  {
+    "id":3,
+    "auteur":"Lotfi Bouraine",
+ "category": " Branding",
+ "view": "View work",
+  "htags":"#Design#creatif#web#developpement",
+  "title": "2020 Festival - Brand Identity",
+  "image": "https://cdn.dribbble.com/users/631735/screenshots/9649617/media/62d6d8c54b2d030ebfb59349428b4b26.png",
+  "quote":
+    "It's all good. I was amazed at the quality of the Design. We've seen amazing results already."
+},
+
+{
+  "id":4,
+  "auteur":"Lotfi Bouraine",
+"category": "Print",
+"view": "View work",
+"htags":"#Design#creatif#web#developpement",
+"title": "Responsive Web Page + Business Cards",
+"image": "https://cdn.dribbble.com/users/2131556/screenshots/4815384/dribbble_001.jpg",
+"quote":
+  "It's all good. I was amazed at the quality of the Design. We've seen amazing results already."
+},
+
+{
+  "id":5,
+  "auteur":"Lotfi Bouraine",
+"category": "print",
+"view": "View work",
+"htags":"#Design#creatif#web#developpement",
+"title": "Mojo coasters",
+"image": "https://cdn.dribbble.com/users/3774691/screenshots/11066386/media/f7ca59afc0f1e70933129a061c043514.png",
+"quote":
+  "It's all good. I was amazed at the quality of the Design. We've seen amazing results already."
+},
+
+{
+  "id":6,
+  "auteur":"Lotfi Bouraine",
+"category": "WEB DESIGN",
+"view": "View work",
+"htags":"#Design#creatif#web#developpement",
+"title": "Yoga studio - web ui concept",
+"image": "https://cdn.dribbble.com/users/1661515/screenshots/6857288/yoga-lifestyle-shot_4x.png?compress=1&resize=800x600",
+"quote":
+  "It's all good. I was amazed at the quality of the Design. We've seen amazing results already."
+}
+
+  
+   
+  ]
