@@ -190,7 +190,9 @@ margin-top:-180px;
  }
  
  
-
+.image {
+   opacity: 0;
+}
  
  .circular-text{
   
