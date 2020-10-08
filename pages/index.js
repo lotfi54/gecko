@@ -3,8 +3,8 @@ import Navigation from 'components/Navigation'
 import Work from 'components/Work'
 import Header from 'components/Header'
 import About from 'components/About'
-import Services from 'components/services'
-import Contact from 'components/contact'
+import Services from 'components/Services'
+import Contact from 'components/Contact'
 import { motion } from "framer-motion"
 import {  ParallaxProvider  } from 'react-scroll-parallax' ; 
 /* import Layouts   from "../components/Layouts" */
