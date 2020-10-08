@@ -4,7 +4,7 @@ const Navigation = () => {
 const [navbar,setNavbar] = useState(false)
 useEffect(() => {
     const changeColor = ()=> {
-        console.log(window.scrollY);
+      /*   console.log(window.scrollY); */
         if(window.scrollY>= 1002) {
             setNavbar(true);
         }else if(window.scrollY>= 2304){
@@ -21,6 +21,7 @@ useEffect(() => {
 
     window.addEventListener('scroll',changeColor);
 }, [])
+
 
 
     

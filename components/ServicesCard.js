@@ -1,6 +1,6 @@
 import React,{useState,useEffect,useRef} from 'react'
 import { FiChevronRight } from 'react-icons/fi';
-
+import { BiCheck } from "react-icons/bi";
 
 const ServicesCard = ({titleservice,quote,roles,id}) => {
     const [active, setActive] = useState(false)
@@ -28,11 +28,11 @@ const ServicesCard = ({titleservice,quote,roles,id}) => {
   <div className=" py-10 w-full leading-relaxed font-mosk4 lg:w-2/5">
   {quote}
   </div>
-  <div className="flex-1 row-col text-center p-0  w-full py-10  lg:w-2/5">
+  <div className="flex-1 row-col text-center p-0  w-full py-0  lg:w-2/5">
   
   {roles.map(function (role, i) { 
     return <div className="flex-1 text-center" key={i}>
-    <h5 className="font-mosk5"> {role.service}</h5>
+    <h5 className="font-mosk5 text-black"> {role.service}</h5>
     <li className="list-none leading-relaxed  font-mosk4 justfiy-center  ">
     {role.title}
     

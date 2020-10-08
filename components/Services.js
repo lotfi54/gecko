@@ -6,12 +6,12 @@ import Parallax from 'react-rellax'
 const Services = () => {
     
     return (
-        <div>
+        <div className="container-about">
         
         
-        <div className="lg:flex    max-h-full mx-auto px-10 mt-32">
+        <div className="lg:flex  max-h-full mx-auto px-10 mt-32">
         
-        <div className="container  stroke-title  flex whitespace-no-wrap text-black w-full text-center  font-bigtitle text-3xl">
+        <div className="container stroke-title  flex whitespace-no-wrap text-black w-full text-center  font-bigtitle text-3xl">
       
       
         Services
@@ -22,7 +22,7 @@ const Services = () => {
        
       
 
-        <div className="flex-1 max-w-full xl:max-w-1/5 bg-blue-about justify-center xl:mx-20 md:mx-10    ">    
+        <div className=" flex-1 max-w-full xl:max-w-1/5 bg-blue-about justify-center xl:mx-20 md:mx-10    ">    
         {service.Services.map((list, index) => (
             <ServicesCard key={index} titleservice={list.titleservice} quote={list.quote} roles={list.roles} id={list.id}  />
         ))}

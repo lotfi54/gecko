@@ -142,14 +142,67 @@ img:hover {
 
   .circle {
      position:absolute; 
-     width: 500px;
-     height: 500px;
-     left: 30%;
-     top: 30%;
+     width: 300px;
+     height: 300px;
+     left: 70%;
+     top: 90%;
      border-radius: 50%;
-     border:1px solid rgba(0, 0, 0, 0.24)
+     border:1px solid rgb(255, 255, 255)
   }
 
+  .arrow {
+     color: white;
+    padding:40px;
+    margin-left:70px;
+    margin-top:100px;
+    font-size:70px;
+     z-index: 12;
+  }
+
+  .line2 {
+   position: absolute;
+   width: 1px;
+   height: 551vh;
+   background-color: rgba(255, 255, 255, 0.144);
+   left: 32%;
+   top: -22%;
+   z-index: 0;
+
+
+  }
+
+  .line3 {
+   position: absolute;
+   width: 1px;
+   height: 551vh;
+   background-color: rgba(255, 255, 255, 0.144);
+   left: 35%;
+   top: -22%;
+   z-index: 0;
+
+  }
+  .line4 {
+   position: absolute;
+   width: 1px;
+   height: 551vh;
+   background-color: rgba(255, 255, 255, 0.144);
+   left: 65%;
+   top: -22%;
+   z-index: 0;
+
+
+  }
+
+  .line5 {
+   position: absolute;
+   width: 1px;
+   height: 551vh;
+   background-color: rgba(255, 255, 255, 0.144);
+   left: 68%;
+   top: -22%;
+   z-index: 0;
+
+  }
   .work-container {
      position: relative;
      width: 800px;
@@ -164,10 +217,11 @@ margin-top:-180px;
   }
 
    h5 {
-   color: #fff;
-   font-family: "Poppins";
-   margin: 48px 0 2px 4px;
-   font-size: 16px;
+      color: #fff;
+    font-family: "Poppins";
+    margin: 9px 0 21px 16px;
+    font-size: 16px;
+
 }
 
  .line {
@@ -192,8 +246,22 @@ margin-top:-180px;
  
 .image {
    opacity: 0;
+   z-index: 0;
 }
- 
+ .container-about {
+    z-index: 1;
+ }
+
+ .container-header {
+   z-index: 1;
+}
+
+.container-service {
+   z-index: 2;
+   position: relative;
+   background-color: yellowgreen;
+}
+
  .circular-text{
   
    top: 1.2%;
@@ -214,3 +282,11 @@ margin-top:-180px;
     position: absolute;
     margin-left: 20px;
  }
+
+ .image-cover {
+    width: 100%;
+    object-fit: cover;
+    
+    height: 497px;
+ }
+

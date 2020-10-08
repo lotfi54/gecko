@@ -3,57 +3,52 @@ import Carousel from 'styled-components-carousel';
 import work from "../data/work.json"
 import CircleType from "circletype";
 import gsap,{Expo} from "gsap";
-const Work = () => {
+import { Parallax } from 'react-scroll-parallax';
+import Link from "next/link";
+import { motion } from 'framer-motion';
+
+const Work = ({post}) => {
+
+  const {API_URL} = process.env
 
 
-
+const transition = {
+  duration:.1,
+  ease:[0.10,0.13,0.10,0.90]
+};
     return (
-        <div>
-        <div className="lg:flex   max-h-full mx-auto px-10 mt-32">
-        <div className="stroke-title flex  text-opacity-50  whitespace-no-wrap  w-full text-center  font-bigtitle text-3xl">
-      
+     
+        <div className="flex lg:w-6/6 md:w-full xl:w-1/3 xl:flex-wrap">
+     
         
-       
-        Work
-       
-      
-        
-        </div>
-        
-        </div>
-            <div className="  flex-1  max-w-full   justify-center xl:mx-20 md:mx-10  ">
-            <div class="flex flex-wrap ">
-            {work.map((list,index)=>(
+            
 
-         <div class="w-full lg:w-5/5 px-4 py-2 m-1 sm:w-full  md:w-full " key={index}>
-              <div class=" text-white  py-2 text-2xl font-mosk">{list.title}</div>
-              <div className="text-gray-800 text-1xl font-cocom uppercase">{list.category}</div>
-              <div className="py-4">
-              <img className="h-56 z-10 w-full object-cover" src={list.image}/>
+         <motion.div  class="flex-1 overflow-hidden   px-4 py-2 m-1  ">
+              <motion.div exit={{opacity:0}} transition={transition} class=" text-white  py-2 text-2xl font-mosk">{post.title}</motion.div>
+              <div className="text-gray-800 text-1xl font-cocom uppercase">category</div>
+           
+              <div className=" overflow-hidden">
+            
+             <Link href="/posts/[id]" as={`/posts/${post.id}`}>
+             <a>
+              <motion.img whileHover={{scale:1.1}} transition={transition} className="overflow-hidden h-64 z-10 w-full  object-cover" src={API_URL + post.image.url} alt=""/>
+              </a>
+              </Link>
                </div>
+              
              
-              <div className="text-black  text-center text-2Xl font-cocom z-20  w-32 p-5 view" >{list.view}</div>
+
              
-            </div>       
-            ))}
+            </motion.div>       
+         
             
-          </div>
-            </div>
+        
 
-            <div className=" flex  justify-center mt-5">
-            <div className="more-work flex-1  text-white  whitespace-no-wrap  w-full text-center  font-bigtitle text-2xl">
-          
-            
-           
-          More  Work
-           
-          
-            </div>
-            </div>
-
+         
 
             
         </div>
+        
     )
 }
 

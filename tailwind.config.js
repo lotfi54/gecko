@@ -6,7 +6,7 @@ module.exports = {
     extend: {
       colors: {
         'maron-light': '#CB997E',
-        'blue-about': '#090909',
+        'blue-about': '#ffffff',
         'fond': '#090909',
         'service': '#ffffff',
         'border': '#e2e1dc',
@@ -55,7 +55,8 @@ module.exports = {
                       },
 
                       width: {
-                        '5/5':'32.7%'
+                        '5/5':'32.7%',
+                        '6/6':'31.7%'
                       },
 
                       fontSize: {
