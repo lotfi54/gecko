@@ -27,6 +27,7 @@
     "react-progressive-image": "^0.6.0",
     "react-rellax": "^1.0.3",
     "react-scroll-parallax": "^2.3.4",
+    "request": "^2.88.2",
     "styled-components": "^5.2.0",
     "styled-components-carousel": "^0.2.0",
     "tailwindcss": "^1.8.10"
