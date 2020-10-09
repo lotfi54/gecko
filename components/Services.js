@@ -1,6 +1,6 @@
 import React from 'react'
 import ServicesCard from "./ServicesCard"
-import service from "../data/service.json"
+import service from "../data/services.json"
 import Marquee from 'react-double-marquee';
 import Parallax from 'react-rellax'
 const Services = () => {
